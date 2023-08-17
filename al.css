@@ -1,0 +1,143 @@
+css
+/* CSS code for styling the website */
+
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li, form, input, textarea {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set body font and background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Style header */
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+/* Style main sections */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#hero-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#hero-section h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+#hero-section p {
+  font-size: 18px;
+  color: #666;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#about-section, #services-section, #projects-section, #contact-section {
+  margin-bottom: 30px;
+}
+
+#about-section h2, #services-section h2, #projects-section h2, #contact-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#about-section p {
+  font-size: 16px;
+  color: #666;
+}
+
+#services-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.project-card {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.project-card h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.project-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+#contact-section form {
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+}
+
+/* Style footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
